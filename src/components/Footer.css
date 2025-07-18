@@ -1,0 +1,35 @@
+.footer {
+    background: #0d0d0d;
+    color: #eaeaea;
+    text-align: center;
+    padding: 4rem 1rem 2rem;
+}
+
+.footer__cta {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.footer__cta span {
+    color: #00df9a;
+    font-weight: 600;
+}
+
+.footer__social a {
+    display: inline-flex;
+    font-size: 1.75rem;
+    margin: 0 0.75rem;
+    color: #eaeaea;
+    transition: color 0.25s, transform 0.25s;
+}
+
+.footer__social a:hover {
+    color: #00df9a;
+    transform: translateY(-3px);
+}
+
+.footer__copy {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #7a7a7a;
+}
