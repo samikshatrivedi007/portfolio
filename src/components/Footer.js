@@ -6,11 +6,12 @@ function Footer() {
     return (
         <footer id="contact" className="footer">
             <p className="footer__cta">
-                Have a project in mind? <span>Let’s build together!</span>
+                Have a project in mind?{" "}
+                <a href="#contact" className="footer__cta-link">Let’s build together!</a>
             </p>
 
             <div className="footer__social">
-                <a
+            <a
                     href="https://github.com/samikshatrivedi007"
                     aria-label="GitHub"
                     target="_blank"
@@ -26,14 +27,7 @@ function Footer() {
                 >
                     <FaLinkedin />
                 </a>
-                <a
-                    href="https://twitter.com/samiksha_codes"
-                    aria-label="Twitter"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <FaTwitter />
-                </a>
+
             </div>
 
             <p className="footer__copy">

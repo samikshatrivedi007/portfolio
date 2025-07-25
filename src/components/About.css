@@ -57,3 +57,25 @@
 .btn:hover {
     transform: translateY(-3px);
 }
+
+.about-buttons {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.about-btn {
+    padding: 0.7rem 1.5rem;
+    background-color: #00df9a;
+    color: #0d0d0d;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.about-btn:hover {
+    background-color: #00c285;
+    transform: translateY(-3px);
+}
