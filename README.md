@@ -1,3 +1,5 @@
+A sleek and responsive personal portfolio website built with React. Showcases projects, skills, contact details, resume. Crafted to reflect my personality and development journey.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
