@@ -1,12 +1,32 @@
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero-container {
+    position: relative;
+    width: 100%;
     height: 100vh;
+    overflow: hidden;
+}
+
+#lineCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: white;
     text-align: center;
-    background: linear-gradient(to bottom, #000000, #1c1c1c);
-    color: #fff;
-    padding: 0 1.5rem;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 1rem;
+    backdrop-filter: blur(6px);
+
+    border-radius: 15px;
+    width: fit-content;
+    margin: auto;
 }
 
 .hero-content h2 {
@@ -17,12 +37,12 @@
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    color: #c0c0c0;
+    color: #e0e0e0;
 }
 
 .btn {
     background-color: #00df9a;
-    color: #0d0d0d;
+    color: #000;
     padding: 12px 28px;
     font-weight: bold;
     text-decoration: none;
