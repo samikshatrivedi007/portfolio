@@ -4,24 +4,24 @@ import './Projects.css';
 const projects = [
     {
         title: 'Indian Heritage & Culture',
-        description: 'A comprehensive React + Next.js portal to showcase Indian heritage sites, blogs, e‑commerce & travel booking.',
-        tech: 'React • TS • MongoDB • Node • Tailwind',
-        img: require('../assets/heritage.jpeg'),       // replace with your image
-        link: 'https://github.com/Tech-and-Vibe/heritage'
+        description: 'A comprehensive React + Next.js portal to showcase Indian heritage sites galleries, blogs, e‑commerce & travel booking(frontend only).',
+        tech: 'React • TS •  CSS Modules',
+        img: require('../assets/heritage_frontend.png'),       // replace with your image
+        link: 'https://github.com/samikshatrivedi007/indian-heritage-culture-frontend'
     },
     {
         title: 'Blinkit‑style Grocery Backend',
-        description: 'RESTful API with admin analytics, role‑based auth and Razorpay payments.',
-        tech: 'Node • TS • Express • MongoDB',
-        img: require('../assets/grocery.jpeg'),
-        link: 'https://github.com/Tech-and-Vibe/blinkit-backend'
+        description:' Backend API for a Blinkit-style grocery delivery app — includes  role‑based auth , cart, orders, admin panel, , Razorpay payments & product management, (Backend only).',
+        tech: 'Node • TS • JS • Express • MongoDB',
+        img: require('../assets/grocery_backend.jpg'),
+        link: 'https://github.com/samikshatrivedi007/Grocery-Web-Backend-'
     },
     {
         title: 'Netflix Clone',
         description: 'Full‑stack clone with TMDB integration, JWT auth and Stripe billing.',
         tech: 'Next.js • Prisma • PostgreSQL',
         img: require('../assets/netflix.jpeg'),
-        link: 'https://github.com/Tech-and-Vibe/netflix-clone'
+        link: 'https://github.com/samikshatrivedi007/netflix-backend'
     }
 ];
 
