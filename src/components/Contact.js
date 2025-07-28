@@ -43,7 +43,7 @@ const Contact = () => {
                     </p>
                     <div className="contact-details">
                         <p><strong>Email:</strong> samikshatrivedi431@gmail.com</p>
-                        <p><strong>Phone:</strong> +91 90XXXXXXXXX</p>
+                        <p><strong>Phone:</strong> +91 90XXXXXXXX</p>
                         <p><strong>Location:</strong> Datia, Madhya Pradesh, India</p>
                     </div>
                 </div>
