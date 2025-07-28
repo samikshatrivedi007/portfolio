@@ -24,6 +24,14 @@ const projects = [
         link: 'https://github.com/samikshatrivedi007/Grocery-Web-Backend-'
     },
     {
+        title: 'Queuelogy – Restaurant Frontend',
+        description: 'A responsive and modern restaurant website frontend built to showcase a food brand with elegant UI, animated sections, and interactive menu display.',
+        tech: 'React • TypeScript •  CSS • Responsive UI',
+        img: require('../assets/restrau.png'), // ✅ Make sure this image is placed correctly
+        link: 'https://github.com/samikshatrivedi007/Restraurent-web',
+    },
+
+    {
         title: 'Netflix Clone',
         description: 'Full‑stack clone with TMDB integration, JWT auth and Stripe billing.',
         tech: 'Next.js • Prisma • PostgreSQL',
