@@ -3,6 +3,13 @@ import './Projects.css';
 
 const projects = [
     {
+        title: 'Adopted Trails (Pet Adoption Backend)',
+        description: 'Backend for a pet adoption platform with user-pet linking, secure CRUD, document & image uploads, custody transfer logic, and MongoDB integration.',
+        tech: 'Node.js • TypeScript • MongoDB • Express',
+        img: require('../assets/adopted_trails_backend.jpg'), // make sure you add this image in the correct path
+        link: 'https://github.com/samikshatrivedi007/adoptedtails-backend'
+    },
+    {
         title: 'Indian Heritage & Culture',
         description: 'A comprehensive React + Next.js portal to showcase Indian heritage sites galleries, blogs, e‑commerce & travel booking(frontend only).',
         tech: 'React • TS •  CSS Modules',
