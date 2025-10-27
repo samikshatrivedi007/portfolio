@@ -56,7 +56,7 @@ function Hero() {
             <canvas id="lineCanvas"></canvas>
             <div className="hero-content">
                 <h2>Hi, I'm Samiksha Trivedi</h2>
-                <p>Full Stack Developer | Open Source Contributor | Tech Community Lead (GDG) | Intern @ Accilives</p>
+                <p>MERN Full-stack Developer | GDG Tech lead’25 | Ex-Intern @AcciLives | BTech CSE(AI-ML)’26</p>
                 <a href="#projects" className="btn">See My Work</a>
             </div>
         </div>

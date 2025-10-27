@@ -8,7 +8,7 @@ import {
     FaDatabase,
     FaJava
 } from 'react-icons/fa';
-import { SiTypescript, SiMongodb, SiMysql, SiLeetcode, SiPython } from 'react-icons/si';
+import { SiTypescript, SiMongodb, SiMysql, SiLeetcode} from 'react-icons/si';
 import './Skills.css';
 
 const skills = [

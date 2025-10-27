@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
-import profile from '../assets/PICfront.jpeg';          // replace with your photo
+
+import profile from '../assets/profile.jpg';          // replace with your photo
 
 function About() {
     return (
