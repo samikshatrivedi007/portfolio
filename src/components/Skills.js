@@ -22,6 +22,13 @@ const skills = [
     { icon: <SiMysql />, name: 'SQL / MySQL' },
     { icon: <FaDatabase />, name: 'Database Mgmt' },
     { icon: <FaJava />, name: 'Java' },
+    { icon: <FaJava />, name: 'Spring' },
+    { icon: <FaJava />, name: 'SpringBoot' },
+    { icon: <FaJava />, name: 'git' },
+    { icon: <FaJava />, name: 'gitHub' },
+    { icon: <FaJava />, name: 'Postman' }, 
+    { icon: <FaJava />, name: 'GenAI' },
+    { icon: <FaJava />, name: 'Prompt Engineering' },
     { icon: <SiLeetcode />, name: 'DSA / Leetcode' },
 ];
 

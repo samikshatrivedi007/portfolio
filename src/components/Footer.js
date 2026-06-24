@@ -29,7 +29,6 @@ function Footer() {
                 </a>
 
             </div>
-
             <p className="footer__copy">
                 © {new Date().getFullYear()} Samiksha Trivedi • Crafted with ☕ + 💻
             </p>
