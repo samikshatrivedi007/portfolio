@@ -28,7 +28,7 @@ function About() {
                     <div className="about-buttons">
                         <a href="#projects" className="about-btn">View Projects</a>
                         <a
-                            href="/Samiksha_Trivedi_Resume.pdf"
+                            href="./samiksha_Trivedi_Resume.pdf"
                             download="Samiksha_Trivedi_Resume.pdf"
                             className="about-btn"
                         >

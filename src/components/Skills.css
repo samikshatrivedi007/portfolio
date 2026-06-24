@@ -1,6 +1,6 @@
 .skills__marquee {
     overflow: hidden;
-    position: relative;
+    display: flex;
     width: 100%;
     background: #0d0d0d;
     padding: 4rem 0;
@@ -8,17 +8,18 @@
 
 .skills__track {
     display: flex;
-    width: fit-content;
+    flex-shrink: 0;
     gap: 2rem;
+    padding-right: 2rem;
     animation: scroll-left 25s linear infinite;
 }
 
 @keyframes scroll-left {
     0% {
-        transform: translateX(0%);
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 

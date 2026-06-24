@@ -10,7 +10,6 @@ import {
      FaGitAlt,
       FaRobot, 
       FaBrain,
-       FaCode,
   FaGithub
 } from 'react-icons/fa';
 import { SiTypescript, SiMongodb, SiMysql,SiSpringboot, SiPostman,SiLeetcode} from 'react-icons/si';
@@ -49,7 +48,8 @@ function Skills() {
                             <span className="skill__name">{name}</span>
                         </div>
                     ))}
-                    {/* Duplicate once for infinite loop */}
+                </div>
+                <div className="skills__track" aria-hidden="true">
                     {skills.map(({icon, name}, index) => (
                         <div className="skill" key={index + '-dup'}>
                             <span className="skill__icon">{icon}</span>
