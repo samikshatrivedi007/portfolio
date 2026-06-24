@@ -17,11 +17,11 @@ const projects = [
         link: 'https://github.com/samikshatrivedi007/indian-heritage-culture-frontend'
     },
     {
-        title: 'Blinkit‑style Grocery Backend',
-        description:' Backend API for a Blinkit-style grocery delivery app — includes  role‑based auth , cart, orders, admin panel, , Razorpay payments & product management, (Backend only).',
-        tech: 'Node • TS • JS • Express • MongoDB',
+        title: 'Blinkit‑style Grocery',
+        description: 'Replica of a Blinkit-style grocery delivery app , including admin panel, user panel, cart, orders, Razorpay payments.',
+        tech: 'Node • TS • JS • Express • MongoDB • React ',
         img: require('../assets/grocery_backend.jpg'),
-        link: 'https://github.com/samikshatrivedi007/Grocery-Web-Backend-'
+        link: 'https://github.com/samikshatrivedi007/blink-Grocery-website'
     },
     {
         title: 'Queuelogy – Restaurant Frontend',
@@ -37,6 +37,27 @@ const projects = [
         tech: 'Next.js • Prisma • PostgreSQL',
         img: require('../assets/netflix.jpeg'),
         link: 'https://github.com/samikshatrivedi007/netflix-backend'
+    },
+    {
+        title: 'mail-crawler',
+        description: 'Full‑stack clone with TMDB Spring Boot application that automatically scans Gmail inboxes, extracts OTPs, order IDs, and links using regex patterns, and stores structured data in Google Sheets through secure OAuth 2.0 integration., JWT auth and Stripe billing.',
+        tech: 'NJava • Spring Boot • Gmail API • Google Sheets API • OAuth 2.0 • Gradle',
+        img: require('../assets/mailcrawler.png'),
+        link: 'https://github.com/samikshatrivedi007/mail-crawler'
+    },
+    {
+        title: 'CV Maker',
+        description: 'Interactive resume builder with real-time preview, dynamic sections for experience, education and skills, and one-click PDF export for professional ATS-friendly resumes.',
+        tech: 'HTML • CSS • JavaScript • PDF Generation',
+        img: require('../assets/cv.png'),
+        link: 'https://github.com/samikshatrivedi007/CV-builder'
+    },
+    {
+        title: 'Hindi ASR Research Project',
+        description: 'AI-powered Automatic Speech Recognition (ASR) research project focused on Hindi speech transcription using Whisper fine-tuning, WER evaluation, spelling correction, cleanup pipelines, and lattice-based performance analysis.',
+        tech: 'Python • PyTorch • Hugging Face • Whisper • NLP • Librosa • Jupyter',
+        img: require('../assets/hindi-asr.png'),
+        link: 'https://github.com/samikshatrivedi007/Speech-AI-Hindi-ASR-Research-Project'
     }
 ];
 
