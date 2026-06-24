@@ -40,8 +40,8 @@ const projects = [
     },
     {
         title: 'mail-crawler',
-        description: 'Full‑stack clone with TMDB Spring Boot application that automatically scans Gmail inboxes, extracts OTPs, order IDs, and links using regex patterns, and stores structured data in Google Sheets through secure OAuth 2.0 integration., JWT auth and Stripe billing.',
-        tech: 'NJava • Spring Boot • Gmail API • Google Sheets API • OAuth 2.0 • Gradle',
+        description: 'A Spring Boot application that automatically scans Gmail inboxes, extracts OTPs, order IDs, and links using regex patterns, and stores structured data in Google Sheets through secure OAuth 2.0 integration.',
+        tech: 'Java • Spring Boot • Gmail API • Google Sheets API • OAuth 2.0 • Gradle',
         img: require('../assets/mailcrawler.png'),
         link: 'https://github.com/samikshatrivedi007/mail-crawler'
     },
