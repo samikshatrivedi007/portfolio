@@ -33,7 +33,7 @@ const skills = [
     { icon: <SiPostman />, name: 'Postman' }, 
     { icon: <FaRobot />, name: 'GenAI' },
     { icon: <FaBrain />, name: 'Prompt Engineering' },
-    { icon: <FaCode />, name: 'DSA / Leetcode' },
+    { icon: <SiLeetcode />, name: 'DSA / Leetcode' },
 ];
 
 function Skills() {
