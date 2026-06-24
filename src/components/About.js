@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 
-import profile from '../assets/profile.jpg';          // replace with your photo
+import profile from '../assets/profile.png';          // replace with your photo
 
 function About() {
     return (
@@ -28,7 +28,7 @@ function About() {
                     <div className="about-buttons">
                         <a href="#projects" className="about-btn">View Projects</a>
                         <a
-                            href="/samiksha_Trivedi_Resume.pdf"
+                            href="/Samiksha_Trivedi_Resume.pdf"
                             download="Samiksha_Trivedi_Resume.pdf"
                             className="about-btn"
                         >

@@ -6,9 +6,14 @@ import {
     FaReact,
     FaNodeJs,
     FaDatabase,
-    FaJava
+    FaJava, 
+     FaGitAlt,
+      FaRobot, 
+      FaBrain,
+       FaCode,
+  FaGithub
 } from 'react-icons/fa';
-import { SiTypescript, SiMongodb, SiMysql, SiLeetcode} from 'react-icons/si';
+import { SiTypescript, SiMongodb, SiMysql,SiSpringboot, SiPostman,SiLeetcode} from 'react-icons/si';
 import './Skills.css';
 
 const skills = [
@@ -22,14 +27,13 @@ const skills = [
     { icon: <SiMysql />, name: 'SQL / MySQL' },
     { icon: <FaDatabase />, name: 'Database Mgmt' },
     { icon: <FaJava />, name: 'Java' },
-    { icon: <FaJava />, name: 'Spring' },
-    { icon: <FaJava />, name: 'SpringBoot' },
-    { icon: <FaJava />, name: 'git' },
-    { icon: <FaJava />, name: 'gitHub' },
-    { icon: <FaJava />, name: 'Postman' }, 
-    { icon: <FaJava />, name: 'GenAI' },
-    { icon: <FaJava />, name: 'Prompt Engineering' },
-    { icon: <SiLeetcode />, name: 'DSA / Leetcode' },
+    { icon: <SiSpringboot />, name: 'SpringBoot' },
+    { icon: <FaGitAlt />, name: 'git' },
+    { icon: <FaGithub />, name: 'gitHub' },
+    { icon: <SiPostman />, name: 'Postman' }, 
+    { icon: <FaRobot />, name: 'GenAI' },
+    { icon: <FaBrain />, name: 'Prompt Engineering' },
+    { icon: <FaCode />, name: 'DSA / Leetcode' },
 ];
 
 function Skills() {
